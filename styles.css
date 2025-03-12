@@ -757,6 +757,32 @@ textarea.form-control {
 }
 
 
+.section__subheader {
+  direction: rtl;
+  max-width: 600px;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+  color: var(--text-light);
+}
+
+.join__image {
+  margin-top: 4rem;
+  position: relative;
+  height: 555px;
+width: 1050px;
+}
+
+.join__image iframe {
+  border-radius: 10px;
+}
+
+#video-personal-trainer {
+  width: 100%;
+  height: 100%;
+}
+
+
   
   @media (width < 900px) {
 
@@ -978,4 +1004,21 @@ margin-top: -2px;
         overflow-y: hidden;
         margin-inline-start: auto;
      }
+     .join__container {
+      margin-top: -100px;
+      margin-bottom: 15rem;
+      height: 44vh;
+    }
+
+    .join__image {
+      margin-top: 3rem;
+      position: relative;
+      height: 144px;
+      margin-left: -42px;
+      width: 249px;
+    }
+    #video-personal-trainer {
+      width: 132%;
+      height: 130%;
+    }
 }
