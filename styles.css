@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Assistant", assistant;
 }
 
 .nav {
@@ -187,8 +188,7 @@
 
   .section__header {
     margin-bottom: 1rem;
-    font-size: 2.25rem;
-    font-weight: 600;
+    font-weight: bold;
     text-align: center;
     color: #E1BF71;
     direction: rtl;
@@ -197,21 +197,20 @@
   }
 
   .class__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+display: flex;
     margin-top: 40px;
     align-items: center;
   }
 
   .class__image {
     position: relative;
-    margin-left: 100px;
   }
   
   .class__image .class__img-1 {
     right: 0;
     top: 120px;
-    height: 390px;
+    height: 555px;
+    object-fit: contain;
     border-radius: 10px;
   }
   
@@ -225,9 +224,7 @@
 
   .class__content {
     direction: rtl;
-    width: 115%;
-    padding: 3.1rem 114px;
-    margin-left: 60px;
+    padding: 50px 50px 50px 50px;
   }
 
   .class__content p {
@@ -237,8 +234,12 @@
     font-size: 18px;
     font-weight: 400;
     margin-top: 5px;
-    margin-bottom: 2rem;
+    margin-bottom: 8px;
     color: var(--text-light);
+  }
+
+  #about-btn {
+    margin-top: 20px;
   }
 
 
@@ -819,7 +820,7 @@ width: 1050px;
     margin-top: 4rem;
   }
   .class__container {
-    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
   }
   .class__image {
     min-height: 500px;
@@ -985,7 +986,13 @@ margin-top: -2px;
         width: 69vw;
         height: 31vh;
         border-radius: 16px;
-        margin-left: 47.1px;
+        margin-left: 11.5%;
+      }
+      #i {
+        margin-top: 14px;
+      }
+      .class__content p {
+        padding: 8px 15px 0px 15px;
       }
       .class__content {
         margin-left: 14px;
