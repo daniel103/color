@@ -946,7 +946,7 @@ margin-top: -2px;
           }
           .section__header {
             direction: rtl;
-            font-size: 31px;
+            font-size: 33px;
             margin-right: 0px;
           }
           .expertise-grid {
@@ -983,7 +983,6 @@ margin-top: -2px;
       }
       .class__img-11 {
         display: block;
-        width: 69vw;
         height: 31vh;
         border-radius: 16px;
         margin-left: 11.5%;
