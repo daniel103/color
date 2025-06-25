@@ -150,11 +150,17 @@
   }
 
   .home-content-p {
+    margin-top: 10px;
     text-align: center;
     color: var(--text-color);
     margin-top: 3px;
     font-size: 24px;
     font-weight: 500;
+  }
+
+  #m {
+    margin-top: 10px;
+    width: 32vw;
   }
 
   #header-name{
@@ -328,6 +334,12 @@ display: flex;
   height: 60px;
   color: #d4b468;
   margin-bottom: 1rem;
+}
+
+#icon-e {
+  width: 90px;
+  height: 90px;
+  margin-top: -28px;
 }
 
 .service-title {
@@ -1037,5 +1049,9 @@ margin-top: -2px;
     #video-personal-trainer {
       width: 132%;
       height: 130%;
+    }
+    #m {
+      margin-top: 6px;
+      width: 83vw;
     }
 }
