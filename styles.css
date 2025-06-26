@@ -121,25 +121,25 @@
     background-image: url("./img/cover2.png");
     background-size: cover;
     height: 100vh;
-    position: relative;
+
   }
 
-  .home::after {
+  /* .home::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
+    background-color: rgba(0, 0, 0, 0.2);
+  } */
   
   .home-content {
     z-index: 5;
     text-align: center;
     margin-left: 35px;
     direction: rtl;
-    margin-top: 84px;
+    margin-top: 24px;
   }
 
   .home-img img{
@@ -257,6 +257,10 @@ display: flex;
 
   #about-btn {
     margin-top: 20px;
+  }
+
+  #r {
+    margin-top: -8px;
   }
 
 
@@ -580,7 +584,11 @@ display: flex;
 #f {
   width: 95px;
   height: 95px;
-  margin-top: -28px;
+  margin-top: -32px;
+}
+
+#t {
+  margin-top: -10px;
 }
 
 #d {
