@@ -574,6 +574,13 @@ display: flex;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+#f {
+  width: 95px;
+  height: 95px;
+  margin-top: -28px;
 }
 
 
@@ -1054,4 +1061,13 @@ margin-top: -2px;
       margin-top: 6px;
       width: 83vw;
     }
+    .project-card:after {
+      opacity: 0.6;
+    }
+
+    .project-card .project-main-title,
+.project-card .project-subtitle {
+  opacity: 1;
+  transform: translateY(0);
+}
 }
