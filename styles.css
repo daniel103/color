@@ -583,6 +583,12 @@ display: flex;
   margin-top: -28px;
 }
 
+#d {
+  width: 90px;
+  height: 95px;
+  margin-top: -15px;
+}
+
 
 .contact-section {
   min-height: 100vh;
