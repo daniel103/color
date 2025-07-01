@@ -325,6 +325,11 @@
             <h1 class="contact-title">הגיע הזמן לשדרג את הבית</h1>
             <p class="contact-subtitle">מלאו את הפרטים ואנחנו נדאג להכל</p>
             <input type="hidden" name="access_key" value="bcf1f45d-6d27-4f1d-9599-d5dd31993f2f">
+              <!-- חדש: נושא ההודעה (עוזר למנוע ספאם) -->
+  <input type="hidden" name="subject" value="פנייה חדשה מאתר הבית הלבן">
+
+  <!-- חדש: שדה honeypot למניעת ספאם -->
+  <input type="text" name="honeypot" style="display:none">
             <input type="text" class="form-control" name="fullname" placeholder="שם מלא" pattern="(^[a-zA-Z]{1,30} [a-zA-Z]{1,30}$)|(^[א-ת]{1,30} [א-ת]{1,30}$)" required>
             
             <div class="form-row">
